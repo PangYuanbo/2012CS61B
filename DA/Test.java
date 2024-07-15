@@ -1,9 +1,9 @@
-public class Test{
-    public static void main(String [] args){
-        int x=5;
-        int y=x=x+1;
-        if ((x>0) && (x<10))
-            System.out.println(1);
+class Test {
 
-    }
+    public static void main(String[] args) { System.out.println(xmethod(5)); }
+
+    public static int xmethod(int n, long t) { System.out.println("int" ); return n; }
+
+    public static long xmethod(long n) { System.out.println("long"); return n; }
+
 }

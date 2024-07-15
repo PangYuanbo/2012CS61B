@@ -1,9 +1,5 @@
-/*
- Name: Yuanbo Pang
- Description: This program asks the user to enter a message, specify how many times to print the message, and choose a type of loop to use.
-              It then prints the message the specified number of times using the chosen loop. Additionally, a random document number is generated
-              and displayed at the end.
-*/
+// Name: Yuanbo Pang  CIS 35A
+//This program requests a message from the user, how many times he wants the message to be printed and what type of loop.It then prints the message for however many times was specified with whatever loop was chosen. Again, a random document number is created and shown at the end.
 
 import java.util.Scanner;
 
@@ -27,7 +23,6 @@ public class MessagePrinter {
         System.out.print("What type of the loop do you want to use: ");
         int loopType = scanner.nextInt();
 
-        // Switch to handle different loop types
         switch (loopType) {
             case 1:
                 System.out.println("Using \"while\" loop:");
