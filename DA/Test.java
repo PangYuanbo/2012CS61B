@@ -1,9 +1,1 @@
-class Test {
-
-    public static void main(String[] args) { System.out.println(xmethod(5)); }
-
-    public static int xmethod(int n, long t) { System.out.println("int" ); return n; }
-
-    public static long xmethod(long n) { System.out.println("long"); return n; }
-
-}
+public class Test { public static void main(String argv[]) { System.out.println("argv.length is " + argv.length); } }
