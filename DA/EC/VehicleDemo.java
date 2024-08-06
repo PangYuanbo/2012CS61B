@@ -18,9 +18,9 @@ public class VehicleDemo {
 }
 
 class Vehicle {
-  int passengers;
-  int fuelCapacity;
-  int milesPerGallon;
+  private int passengers;
+  private int fuelCapacity;
+  private int milesPerGallon;
   
   public Vehicle(int passengers, int fuelCapacity, int milesPerGallon) {
     this.passengers = passengers;
